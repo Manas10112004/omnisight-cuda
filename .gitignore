@@ -1,0 +1,25 @@
+# CMake and build artifacts
+build/
+.cmake/
+CMakeCache.txt
+CMakeFiles/
+*.dir/
+
+# Visual Studio / IDE files
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.*
+
+# Data and logs
+data/weights.bin
+training/normal_traffic.pcap
+build/anomalies.csv
+*.pcap
+*.csv
+
+# Python environments
+__pycache__/
+*.pyc
+.venv/*.pcapng 
+echo *.pcapng >> .gitignore
