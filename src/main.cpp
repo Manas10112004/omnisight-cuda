@@ -11,7 +11,7 @@
 #define BATCH_SIZE 32  
 #define INPUT_DIM 4
 #define HIDDEN_DIM 64
-#define ANOMALY_THRESHOLD 500.0f // Elevated for untrained baseline
+#define ANOMALY_THRESHOLD 1.5f
 
 int main() {
     LockFreeRingBuffer ring_buffer(65536);
